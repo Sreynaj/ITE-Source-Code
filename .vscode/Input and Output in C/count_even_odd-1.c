@@ -12,7 +12,7 @@ int main(){
     scanf("%d", &min);
     printf("Enter your maximum number:");
     scanf("%d", &max); 
-
+         
     for (i=min; i<=max; i++)
     {
         if(i% 2==0)
@@ -27,7 +27,7 @@ int main(){
     printf("Even Number: %d \n" , even_num);
     printf("Odd number: %d \n", odd_number); 
 
-    
+    return 0;
 }
 
     
