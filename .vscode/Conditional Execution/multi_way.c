@@ -1,30 +1,29 @@
 #include<stdio.h>
 
 int main(){
-    int discount;
-    int money;// before discount
+    int payment;// before discount
     int total; // after discount 
 
-    printf("How much do you spend on these:");
-    scanf("%d", &money);
+    printf("How much do you spend on these?:");
+    scanf("%d", &payment);
 
-    if (money >= 200 ){
-        total = money - (0.02*money);
+    if (payment >= 200 ){
+        total = payment - (0.02*payment);
         printf("Total payment: %d" , total);
     }
-    else if (money>= 400)
+    else if (payment>= 400)
     {
-        total = money - (0.05*money);
+        total = payment - (0.05*payment);
         printf("Total payment: %d" , total);
     }
-    else if (money >= 800)
+    else if (payment >= 800)
     {
-        total = money - (0.1*money);
+        total = payment - (0.1*payment);
         printf("Total payment: %d" , total);
     }
-    else if (money>=1000)
+    else if (payment>=1000)
     {
-        total = money - (0.15*money);
+        total = payment - (0.15*payment);
         printf("Total payment: %d " , total);
     }
     
