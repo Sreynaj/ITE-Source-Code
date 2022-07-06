@@ -11,7 +11,7 @@ int main (){
   /*printf("Enter your limit number: ");
   scanf("%d", & n);*/
 
-  while (i<=10){
+  while (i<=5){
     sum = sum + i;
     printf("sum = %d\n",sum);
     i++;
