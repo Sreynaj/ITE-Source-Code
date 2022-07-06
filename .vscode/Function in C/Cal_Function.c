@@ -1,12 +1,12 @@
 #include<stdio.h>
 
 int Cal(int n){
-    int i=1;
+    int i;
     int sum = 0;
     while (i <= n){
         sum = sum + i;
         i ++;
-    }  
+    }
     /*
     for (int i=1, i<=n;i++) {
         sum = sum + i;
