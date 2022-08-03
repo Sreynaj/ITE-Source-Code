@@ -9,9 +9,10 @@ int Tem(){
     }
 }
 int main(){
-    //int tem = rand()%100 + 10; 
-    printf("Enter your room temperature: ");
-    scanf("%d \n ", &tem);
-    printf("Your room temperature is: %d \n",Tem(tem));
+    int tem = rand()%50 + 10; 
+    //printf("Enter your room temperature: ");
+    //scanf("%d \n ", &tem);
+    printf("Your room temperature is: %d \n",Tem());
+    return 0;
 
 }
