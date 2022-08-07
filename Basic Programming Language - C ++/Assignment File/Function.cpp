@@ -32,10 +32,11 @@ void Book(){
 }
 
 void mycart(){
-    cout<<"\n\nYour Cart:";
+    cout<<"\nYour Cart:";
     for(int i=0 ;i<5;i++)
         cout<<MyCart[i]<<", ";
     cout<<endl;
+    cout << "\n========================";
 
 }
 
@@ -111,16 +112,14 @@ int main(){
             case 3:
             cout <<  "========================\n" <<SPORT[2];
             MyCart[3] = SPORT[2];
-            break;
         }
         
         cout << "\n========================";
         mycart();
-        cout << "\n========================";
+        
         break;
-
-
         
     }
+    return 0;
 
 }
